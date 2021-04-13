@@ -10,8 +10,8 @@
 
 
 ##############################################
-### Initialize values, packages
-##############################################
+#--------- Initialize values, packages ---------------------------------------------####
+
 # Packages
 library(dplyr)
 library(tidyr)
@@ -19,7 +19,7 @@ library(ggplot2)
 library(Hmisc)
 
 # Functions
-
+#-----------------------------------------------------------------------------------####
 # This reads in the datafiles
 setwd("\\\\CNAS.RU.NL/U759237/Documents/Projects/Suprasegmental production/Analysis/R analyses/Outputfiles/")
 resultsdir <- getwd()
